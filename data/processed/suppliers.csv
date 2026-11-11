@@ -1,0 +1,7 @@
+supplier_id,supplier_name,supplier_region,base_lead_time_days,lead_time_variability_days,unit_cost_factor,fulfillment_probability_assumption,data_origin
+SUP-01,Northstar Goods,North,5,1.0,0.64,0.97,SIMULATED
+SUP-02,Cedar Wholesale,South,7,1.5,0.67,0.94,SIMULATED
+SUP-03,Harbor Supply,East,9,2.0,0.61,0.91,SIMULATED
+SUP-04,Summit Distribution,West,6,1.0,0.69,0.96,SIMULATED
+SUP-05,Pioneer Trading,North,11,2.5,0.59,0.88,SIMULATED
+SUP-06,Willow Merchants,South,8,1.5,0.66,0.93,SIMULATED

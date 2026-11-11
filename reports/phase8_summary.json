@@ -1,0 +1,35 @@
+{
+  "abc_counts": {
+    "A": 60,
+    "B": 24,
+    "C": 16
+  },
+  "abc_value_share_pct": {
+    "A": 80.881,
+    "B": 14.505,
+    "C": 4.614
+  },
+  "abc_units_share_pct": {
+    "A": 58.976,
+    "B": 24.922,
+    "C": 16.102
+  },
+  "total_sales_value_proxy_2023": 216293681.43,
+  "reorder_by_abc": {
+    "A": 57,
+    "B": 24,
+    "C": 16
+  },
+  "management_priority_counts": {
+    "MEDIUM": 41,
+    "HIGH": 36,
+    "CRITICAL": 23
+  },
+  "tier_counts": {
+    "Strong": 2,
+    "Moderate": 2,
+    "Needs Review": 2
+  },
+  "supplier_rank_changed": 0,
+  "phase7_file_sha256": "14f17f4fa84fc180f15646d16c53e45806f1402e7c6d91a893377644ac01a56c"
+}

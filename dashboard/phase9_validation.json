@@ -1,0 +1,96 @@
+{
+  "files": {
+    "locations": {
+      "rows": 5,
+      "sha256": "8fd1ac3991e2dcebc009de81d05ae9187ae2b143c7bbe2556472bb47ad35af97",
+      "upstream": "data\\processed\\locations.csv"
+    },
+    "local_skus": {
+      "rows": 100,
+      "sha256": "6fb5210f8c2a6b3fe252d2eae0fbf6fb8a46879359bd4a7786739248822f46d6",
+      "upstream": "data\\processed\\local_skus.csv"
+    },
+    "daily_operations": {
+      "rows": 76000,
+      "sha256": "268bb213b7d9eb66bc33db54d87608366eed33d57952e3cacecdf465b5cf332a",
+      "upstream": "data\\processed\\daily_operations.csv"
+    },
+    "suppliers": {
+      "rows": 6,
+      "sha256": "ab2a5e9dd89dd965cd9340eed49b2d1e15e978bb2dd22a2cb9d8308e28882c17",
+      "upstream": "data\\processed\\suppliers.csv"
+    },
+    "purchase_orders": {
+      "rows": 5299,
+      "sha256": "044061fe9c73fac0503f3ec5788928134997199b6600e5d60af5544f62ee37f2",
+      "upstream": "data\\processed\\purchase_orders.csv"
+    },
+    "receipts": {
+      "rows": 5299,
+      "sha256": "7e7f81a25792dfc9b3b4b8f1241e93484487039d268980c03d1f0c224087ca29",
+      "upstream": "data\\processed\\receipts.csv"
+    },
+    "demand_forecast_14d": {
+      "rows": 1400,
+      "sha256": "d0d764b34eae20b18ef903f730d9c29e4deb717f1caeae6e8224bd325499a4e1",
+      "upstream": "reports\\demand_forecast_14d.csv"
+    },
+    "forecast_holdout_predictions": {
+      "rows": 14000,
+      "sha256": "dfdd282643e143e410d79d4e997ced15f588b0b752a025a8270185c6ebd08a45",
+      "upstream": "reports\\forecast_holdout_predictions.csv"
+    },
+    "replenishment_recommendations": {
+      "rows": 100,
+      "sha256": "14f17f4fa84fc180f15646d16c53e45806f1402e7c6d91a893377644ac01a56c",
+      "upstream": "reports\\replenishment_recommendations.csv"
+    },
+    "abc_inventory_classification": {
+      "rows": 100,
+      "sha256": "2bf3c183efed4d4d8b61ff9d2e67e7d8a6aedb9b629cfa9df0d7554f55ba5022",
+      "upstream": "reports\\abc_inventory_classification.csv"
+    },
+    "supplier_scorecard": {
+      "rows": 6,
+      "sha256": "028dc2807dea526fb5cdbc1e4cbf47b6c0d2ca05e78fe97bddd61751521147a4",
+      "upstream": "reports\\supplier_scorecard.csv"
+    },
+    "supply_chain_priority_matrix": {
+      "rows": 100,
+      "sha256": "4bd56881bb333e3a1fe69de46c88d8674eae972f8d3d51075c970a24a0dba142",
+      "upstream": "reports\\supply_chain_priority_matrix.csv"
+    },
+    "sku_demand_profile": {
+      "rows": 100,
+      "sha256": "b06baa1a8670ba136a45e9160a643f2ed925c95e937da906f768e11ff43f4285",
+      "upstream": "reports\\sku_demand_profile.csv"
+    },
+    "date_dim": {
+      "rows": 774,
+      "start": "2022-01-01",
+      "end": "2024-02-13",
+      "sha256": "eca2bc66f2295e566b03f2fd155da98352e5471ac2f881b37a9d99f49ac48d46",
+      "upstream": "DERIVED calendar from source and scenario dates"
+    }
+  },
+  "anchors": {
+    "historical_units": 6750876,
+    "forecast_14d_units": 126137.36,
+    "latest_inventory": 29049,
+    "reorder_skus": 97,
+    "recommended_units": 180766,
+    "abc": {
+      "A": 60,
+      "B": 24,
+      "C": 16
+    },
+    "priority": {
+      "CRITICAL": 23,
+      "HIGH": 36,
+      "MEDIUM": 41
+    },
+    "on_time_receipts": 3316,
+    "supplier_po_total": 5299
+  },
+  "checks": "PASS: copied bytes, grain/keys, foreign references, counts, supplier percentages and totals"
+}

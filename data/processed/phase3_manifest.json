@@ -1,0 +1,34 @@
+{
+  "seed": 31027,
+  "raw_sha256": "ab5afbd3d4ae77646e221ffc528dd748b0f28ab891f9fc61d06f143a99bb5b2c",
+  "tables": {
+    "locations": {
+      "rows": 5,
+      "sha256": "8fd1ac3991e2dcebc009de81d05ae9187ae2b143c7bbe2556472bb47ad35af97"
+    },
+    "local_skus": {
+      "rows": 100,
+      "sha256": "6fb5210f8c2a6b3fe252d2eae0fbf6fb8a46879359bd4a7786739248822f46d6"
+    },
+    "daily_operations": {
+      "rows": 76000,
+      "sha256": "268bb213b7d9eb66bc33db54d87608366eed33d57952e3cacecdf465b5cf332a"
+    },
+    "suppliers": {
+      "rows": 6,
+      "sha256": "ab2a5e9dd89dd965cd9340eed49b2d1e15e978bb2dd22a2cb9d8308e28882c17"
+    },
+    "sku_supplier_map": {
+      "rows": 100,
+      "sha256": "b675f3e6dcf59a78cf3c39b285faa2e844eab4841d2e38d67b5f8aedbf3fd15b"
+    },
+    "purchase_orders": {
+      "rows": 5299,
+      "sha256": "044061fe9c73fac0503f3ec5788928134997199b6600e5d60af5544f62ee37f2"
+    },
+    "receipts": {
+      "rows": 5299,
+      "sha256": "7e7f81a25792dfc9b3b4b8f1241e93484487039d268980c03d1f0c224087ca29"
+    }
+  }
+}

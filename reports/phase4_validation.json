@@ -1,0 +1,34 @@
+{
+  "foreign_keys_enabled": true,
+  "integrity_check": "ok",
+  "foreign_key_violations": 0,
+  "table_rows": {
+    "locations": 5,
+    "local_skus": 100,
+    "daily_operations": 76000,
+    "suppliers": 6,
+    "sku_supplier_map": 100,
+    "purchase_orders": 5299,
+    "receipts": 5299
+  },
+  "daily_date_range": [
+    "2022-01-01",
+    "2024-01-30",
+    760
+  ],
+  "procurement_ordered_spend": 348263386.82,
+  "export_rows": {
+    "demand_summary.csv": 10,
+    "inventory_summary.csv": 100,
+    "procurement_summary.csv": 6,
+    "supplier_performance.csv": 6,
+    "supply_chain_exceptions.csv": 90
+  },
+  "export_sha256": {
+    "demand_summary.csv": "e3c2285ca4d8276088d5c2286c9b0b40d299c52ffdbaa73b0344a5b06cddabe2",
+    "inventory_summary.csv": "d30eb98d9efcee56b630499bdfad838a337d56ebb85053a352316355aedec16e",
+    "procurement_summary.csv": "9b823ffbbcf6445ebc6937caa4f7019fc75a00441d5d5eef072bdb53df683533",
+    "supplier_performance.csv": "1eb9f9ce405175630ca82550b195da595812673d2d523eecce4d8c99bf1437eb",
+    "supply_chain_exceptions.csv": "e309a93ec4d3a918e385bea88c5bc2aad427ebe75d5216456b8e19a402e3ec96"
+  }
+}

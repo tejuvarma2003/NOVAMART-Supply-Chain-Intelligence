@@ -1,0 +1,19 @@
+{
+  "snapshot_date": "2024-01-30",
+  "local_skus": 100,
+  "status_counts": {
+    "REORDER REQUIRED": 97,
+    "LOW STOCK / AT RISK": 3
+  },
+  "priority_counts": {
+    "HIGH": 97,
+    "MEDIUM": 3
+  },
+  "recommended_units": 180766,
+  "average_safety_stock": 175.482,
+  "mean_eoq_reference": 891.529,
+  "mean_coverage_days": 3.265,
+  "potential_slow_moving": 0,
+  "attention_rows": 100,
+  "source_inventory_sha256": "268bb213b7d9eb66bc33db54d87608366eed33d57952e3cacecdf465b5cf332a"
+}

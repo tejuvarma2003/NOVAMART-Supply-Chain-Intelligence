@@ -1,0 +1,7 @@
+supplier_id,supplier_name,purchase_orders,ordered_spend,avg_expected_lead_days,avg_actual_lead_days,actual_lead_sd_days,on_time_receipts,late_receipts,on_time_pct,late_pct,avg_positive_delay_all_receipts_days,avg_delay_late_only_days,ordered_units,received_units,receipt_fill_pct,data_origin
+SUP-05,Pioneer Trading,848,52897449.34,11.0,11.03,2.52,489,359,57.67,42.33,1.01,2.39,1395126,1375529,98.6,SIMULATED
+SUP-03,Harbor Supply,901,61266632.9,9.0,9.0,2.09,531,370,58.93,41.07,0.83,2.01,1380236,1361985,98.68,SIMULATED
+SUP-02,Cedar Wholesale,900,60649592.89,7.0,7.07,1.5,537,363,59.67,40.33,0.61,1.52,1372078,1361868,99.26,SIMULATED
+SUP-06,Willow Merchants,848,65588149.42,8.0,8.03,1.58,525,323,61.91,38.09,0.61,1.61,1430601,1414149,98.85,SIMULATED
+SUP-04,Summit Distribution,901,61153600.97,6.0,6.03,1.06,614,287,68.15,31.85,0.4,1.26,1278778,1269813,99.3,SIMULATED
+SUP-01,Northstar Goods,901,46707961.3,5.0,5.01,1.05,620,281,68.81,31.19,0.4,1.27,1429784,1425582,99.71,SIMULATED
