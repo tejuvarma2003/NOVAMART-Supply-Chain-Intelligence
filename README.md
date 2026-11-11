@@ -31,6 +31,22 @@ The original dataset and the NOVAMART project should not
 be interpreted as records from a real operating retailer.
 
 
+## Explore the Full Portfolio Case Study
+
+Want to understand the business problem, analytical approach, forecasting results, inventory recommendations, and Power BI dashboards?
+
+**[Read the Complete NOVAMART Portfolio Case Study](reports/PORTFOLIO_CASE_STUDY.md)**
+
+The case study covers:
+- Business objectives and data preparation
+- SQL analysis and exploratory insights
+- 14-day demand forecasting and model evaluation
+- Inventory optimization and replenishment recommendations
+- ABC classification and simulated supplier performance
+- Five Power BI dashboard pages
+- Technical challenges, lessons learned, and future improvements
+
+
 ## Project Highlights
 
 | Metric | Result | Interpretation |
