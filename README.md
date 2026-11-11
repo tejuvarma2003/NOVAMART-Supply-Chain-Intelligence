@@ -9,6 +9,28 @@ NOVAMART is a fictional five-location retail operation. This project transforms 
 
 > **Data provenance:** The retail observations are synthetic, not transactions from a real business. Supplier records, purchase orders, and receipts are additional simulated scenarios. Forecasts, inventory recommendations, and supplier scores are analytical outputs, not live decisions, executed purchases, or measured financial benefits.
 
+
+### Dataset Source and Attribution
+
+The NOVAMART project uses the publicly available
+**Retail Store Inventory and Demand Forecasting** dataset,
+published by **atomicd** on Kaggle.
+
+- Dataset: [Retail Store Inventory and Demand Forecasting](https://www.kaggle.com/datasets/atomicd/retail-store-inventory-and-demand-forecasting)
+- Publisher: atomicd
+- Dataset version used: v8
+- Reported dataset license: Apache License 2.0
+- Data type: Synthetic retail inventory and sales observations
+
+The source dataset is used for educational and portfolio
+purposes. NOVAMART's supplier records, purchase orders,
+receipts, inventory policies, and management recommendations
+are additional simulated or derived analytical outputs.
+
+The original dataset and the NOVAMART project should not
+be interpreted as records from a real operating retailer.
+
+
 ## Project Highlights
 
 | Metric | Result | Interpretation |
@@ -347,7 +369,43 @@ The original project archive contains the dashboard-ready data and documentation
 - Management-priority filtering
 - Relational data modeling and DAX measures
 
-Actual dashboard screenshots should be added before publishing the repository.
+
+### Power BI Dashboard Preview
+
+The following screenshots show the five completed pages of the NOVAMART Supply Chain Control Tower.
+
+#### 1. Executive Overview
+
+High-level operational KPIs, historical sales trends, inventory health, and management priorities.
+
+![Executive Overview](dashboard/screenshots/01_executive_overview.png)
+
+#### 2. Demand Planning
+
+Historical sales patterns, forecast performance, and 14-day demand projections.
+
+![Demand Planning](dashboard/screenshots/02_demand_planning.png)
+
+#### 3. Inventory & Replenishment
+
+Inventory coverage, reorder-point analysis, safety stock, and proposed replenishment quantities.
+
+![Inventory and Replenishment](dashboard/screenshots/03_inventory_replenishment.png)
+
+#### 4. Supplier Performance
+
+Simulated supplier delivery performance, fill rates, and relative supplier scoring.
+
+![Supplier Performance](dashboard/screenshots/04_supplier_performance.png)
+
+#### 5. Supply Chain Action Center
+
+Prioritized supply chain exceptions and recommended management review actions.
+
+![Supply Chain Action Center](dashboard/screenshots/05_supply_chain_action_center.png)
+
+> **Note:** NOVAMART uses synthetic retail data and separately simulated procurement records. Forecasts and inventory recommendations are historical analytical scenarios, not live operational results.
+
 
 **Documentation:**
 
@@ -460,9 +518,7 @@ Important limitations include:
 
 **Final publishing tasks:**
 
-- Update Phase 9 documentation to reflect the completed local dashboard
-- Add actual Power BI screenshots
-- Review repository files before publication
+- Verify repository contents and licensing requirements
 - Publish the GitHub repository
 - Prepare the portfolio case study
 
